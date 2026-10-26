@@ -1,0 +1,4 @@
+order_id,amount,status
+O1001,100.00,PAID
+O1002,200.00,PAID
+O1003,80.00,PAID

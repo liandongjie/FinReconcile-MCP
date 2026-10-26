@@ -1,0 +1,30 @@
+# Build artifacts / local Maven cache
+/target/
+/.build/
+
+# IDE and OS
+/.idea/
+/.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local automation workspace and obsolete handoff drafts
+/.agents/
+/CODEX_TASK.md
+/PROJECT_PLAN.md
+/START_HERE.md
+
+# Local validation logs may contain machine paths and diagnostics
+/verification/*.log
+
+# User-specific Maven settings (keep wrapper and project maven.config)
+/.mvn/settings.xml
+
+# Accidental secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json

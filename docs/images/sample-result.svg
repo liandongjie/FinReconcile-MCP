@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="496" viewBox="0 0 1280 496" role="img" aria-label="FinReconcile MCP 项目彩色信息图"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F6F9FF"/><stop offset="1" stop-color="#EEF9F7"/></linearGradient>
+<filter id="sh"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#4B608A" flood-opacity=".11"/></filter>
+</defs>
+<rect x="0" y="0" width="1280" height="496" rx="0" fill="url(#bg)" stroke="none" stroke-width="1"/>
+<text x="44" y="62" font-size="31" font-weight="800" fill="#1A2B50" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >真实样例的核验结果</text>
+<text x="46" y="93" font-size="17" font-weight="500" fill="#5E7292" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >batch001 · 3 笔订单 / 3 项待复核异常</text>
+<rect x="1020" y="44" width="208" height="39" rx="20" fill="#FFE8E9" stroke="none" stroke-width="1"/><text x="1124" y="70" font-size="13" font-weight="750" fill="#CE4052" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" text-anchor="middle">ANOMALIES_FOUND</text>
+<g filter="url(#sh)"><rect x="40" y="117" width="389" height="279" rx="20" fill="#FFFFFF" stroke="#FFCFCD" stroke-width="1.5"/></g>
+ <rect x="41" y="118" width="387" height="9" rx="4" fill="#F0656A" stroke="none" stroke-width="1"/>
+ <rect x="62" y="145" width="342" height="38" rx="13" fill="#FEE0DC" stroke="none" stroke-width="1"/><text x="73" y="171" font-size="16" font-weight="780" fill="#A73D43" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >DUPLICATE_SUCCESS</text>
+ <circle cx="94" cy="234" r="33" fill="#FFF2F1" />
+ <text x="94" y="247" font-size="34" font-weight="850" fill="#F0656A" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" text-anchor="middle">2</text>
+ <text x="143" y="225" font-size="24" font-weight="800" fill="#263757" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >O1001</text>
+ <text x="143" y="251" font-size="17" font-weight="600" fill="#A73D43" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >重复成功流水</text>
+ <path d="M64 272 L404 272" fill="none" stroke="#FFCFCD" stroke-width="1.2" stroke-linecap="round" />
+ <text x="68" y="302" font-size="17" font-weight="650" fill="#364B6B" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >订单  ¥100.00</text>
+ <text x="68" y="331" font-size="16" font-weight="520" fill="#536981" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >成功流水  P001  +  P002</text>
+ <text x="68" y="370" font-size="13" font-weight="450" fill="#7B889C" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >多条成功记录，不等于真实重复扣款</text>
+ <g filter="url(#sh)"><rect x="442" y="117" width="389" height="279" rx="20" fill="#FFFFFF" stroke="#F7DFB1" stroke-width="1.5"/></g>
+ <rect x="443" y="118" width="387" height="9" rx="4" fill="#F4AF4C" stroke="none" stroke-width="1"/>
+ <rect x="464" y="145" width="342" height="38" rx="13" fill="#FFF0D2" stroke="none" stroke-width="1"/><text x="475" y="171" font-size="16" font-weight="780" fill="#926321" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >AMOUNT_MISMATCH</text>
+ <circle cx="496" cy="234" r="33" fill="#FFF8ED" />
+ <text x="496" y="247" font-size="34" font-weight="850" fill="#F4AF4C" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" text-anchor="middle">≠</text>
+ <text x="545" y="225" font-size="24" font-weight="800" fill="#263757" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >O1002</text>
+ <text x="545" y="251" font-size="17" font-weight="600" fill="#926321" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >金额不一致</text>
+ <path d="M466 272 L806 272" fill="none" stroke="#F7DFB1" stroke-width="1.2" stroke-linecap="round" />
+ <text x="470" y="302" font-size="17" font-weight="650" fill="#364B6B" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >订单  ¥200.00</text>
+ <text x="470" y="331" font-size="16" font-weight="520" fill="#536981" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >流水 P003  ¥199.00</text>
+ <text x="470" y="370" font-size="13" font-weight="450" fill="#7B889C" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >订单金额与唯一成功流水不一致</text>
+ <g filter="url(#sh)"><rect x="844" y="117" width="389" height="279" rx="20" fill="#FFFFFF" stroke="#DDD3FF" stroke-width="1.5"/></g>
+ <rect x="845" y="118" width="387" height="9" rx="4" fill="#9576EF" stroke="none" stroke-width="1"/>
+ <rect x="866" y="145" width="342" height="38" rx="13" fill="#EAE2FF" stroke="none" stroke-width="1"/><text x="877" y="171" font-size="16" font-weight="780" fill="#654DAD" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >MISSING_PAYMENT</text>
+ <circle cx="898" cy="234" r="33" fill="#F5F2FF" />
+ <text x="898" y="247" font-size="34" font-weight="850" fill="#9576EF" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" text-anchor="middle">0</text>
+ <text x="947" y="225" font-size="24" font-weight="800" fill="#263757" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >O1003</text>
+ <text x="947" y="251" font-size="17" font-weight="600" fill="#654DAD" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >成功流水缺失</text>
+ <path d="M868 272 L1208 272" fill="none" stroke="#DDD3FF" stroke-width="1.2" stroke-linecap="round" />
+ <text x="872" y="302" font-size="17" font-weight="650" fill="#364B6B" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >订单  ¥80.00</text>
+ <text x="872" y="331" font-size="16" font-weight="520" fill="#536981" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >匹配的成功流水  0 条</text>
+ <text x="872" y="370" font-size="13" font-weight="450" fill="#7B889C" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >已支付订单未发现成功流水</text>
+ <rect x="42" y="419" width="1193" height="52" rx="16" fill="#E1F7EC" stroke="#B8E9D4" stroke-width="1"/>
+<circle cx="75" cy="445" r="16" fill="#22B084" /><text x="75" y="451" font-size="19" font-weight="800" fill="#FFFFFF" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" text-anchor="middle">✓</text>
+<text x="106" y="451" font-size="18" font-weight="800" fill="#176E54" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >batch002</text>
+<text x="222" y="451" font-size="16" font-weight="560" fill="#26745D" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >2 笔订单 · 0 项异常 · 状态 OK</text>
+<text x="1210" y="451" font-size="13" font-weight="450" fill="#669280" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" text-anchor="end">演示数据 / 非真实交易</text>
+</svg>

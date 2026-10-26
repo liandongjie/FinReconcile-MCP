@@ -1,0 +1,3 @@
+payment_id,order_id,amount,status
+P101,O2001,0.1,SUCCESS
+P102,O2002,350.00,SUCCESS

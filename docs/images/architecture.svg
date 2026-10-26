@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="608" viewBox="0 0 1280 608" role="img" aria-label="FinReconcile MCP 项目彩色信息图"><defs>
+ <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F3F6FF"/><stop offset="1" stop-color="#E8F5F8"/></linearGradient>
+ <filter id="sh"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#57718F" flood-opacity=".13"/></filter>
+ <linearGradient id="agent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6466EA"/><stop offset="1" stop-color="#8E65D8"/></linearGradient>
+ <linearGradient id="server" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#E5FFFA"/><stop offset="1" stop-color="#F3FAFF"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1280" height="608" rx="0" fill="url(#back)" stroke="none" stroke-width="1"/>
+<text x="55" y="65" font-size="31" font-weight="800" fill="#192C55" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >系统架构 / HOW IT WORKS</text>
+<text x="56" y="97" font-size="17" font-weight="450" fill="#627798" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >AI 负责理解与表达；Java 负责读取数据和执行对账规则。</text>
+<rect x="53" y="153" width="245" height="291" rx="24" fill="#FFFFFF" stroke="#DDDDFB" stroke-width="2"/>
+<rect x="67" y="168" width="217" height="43" rx="15" fill="url(#agent)" stroke="none" stroke-width="1"/>
+<circle cx="89" cy="189" r="8" fill="#FFF" /><text x="110" y="197" font-size="16" font-weight="700" fill="#FFFFFF" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >Codex / MCP Client</text>
+<rect x="92" y="247" width="156" height="113" rx="24" fill="#F5F3FF" stroke="#DDDAFE" stroke-width="2"/>
+<path d="M119 278h96a12 12 0 0 1 12 12v32a12 12 0 0 1-12 12h-40l-16 14v-14h-40a12 12 0 0 1-12-12v-32a12 12 0 0 1 12-12z" fill="#DDD9FF" stroke="#786BEC" stroke-width="2"/>
+<path d="M131 298 L204 298" fill="none" stroke="#796FDD" stroke-width="4" stroke-linecap="round" /><path d="M131 312 L185 312" fill="none" stroke="#796FDD" stroke-width="4" stroke-linecap="round" />
+<text x="175" y="386" font-size="17" font-weight="700" fill="#4D4A95" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" text-anchor="middle">自然语言指令</text>
+<text x="175" y="412" font-size="13" font-weight="450" fill="#7779A0" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" text-anchor="middle">工具选择 / 结果解释</text>
+<path d="M308 301 L426 301" stroke="#7585BF" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M415 294 L426 301 L415 308" stroke="#7585BF" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="305" y="248" width="127" height="30" rx="15" fill="#E4EAFE" stroke="none" stroke-width="1"/>
+<text x="368" y="268" font-size="13" font-weight="700" fill="#4564B0" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" text-anchor="middle">MCP / stdio</text>
+<text x="367" y="335" font-size="14" font-weight="650" fill="#627A9A" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" text-anchor="middle">JSON-RPC</text>
+<g filter="url(#sh)"><rect x="444" y="141" width="787" height="342" rx="28" fill="#FFFFFF" stroke="#C8E0EA" stroke-width="2"/></g>
+<rect x="461" y="158" width="753" height="62" rx="18" fill="url(#server)" stroke="none" stroke-width="1"/>
+<circle cx="490" cy="187" r="11" fill="#27C4AA" /><text x="513" y="195" font-size="23" font-weight="800" fill="#163C53" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >Java MCP Server</text>
+<rect x="1034" y="175" width="157" height="28" rx="14" fill="#D8FFF3" stroke="none" stroke-width="1"/><text x="1112" y="195" font-size="13" font-weight="750" fill="#188D7A" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" text-anchor="middle">READ-ONLY</text>
+<rect x="469" y="241" width="228" height="195" rx="18" fill="#F2F8FF" stroke="#C5DBF6" stroke-width="1.5"/>
+<rect x="489" y="259" width="48" height="48" rx="14" fill="#CFE2FF" stroke="none" stroke-width="1"/>
+<path d="M500 271h26v23h-26zM505 278h16M505 285h16" stroke="#3270D4" stroke-width="3" fill="none" stroke-linecap="round"/>
+<text x="489" y="341" font-size="22" font-weight="780" fill="#244A88" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >ReconcileTools</text>
+<text x="489" y="373" font-size="16" font-weight="650" fill="#4472A6" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >MCP 接入层</text>
+<text x="489" y="402" font-size="13" font-weight="500" fill="#6883AA" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >2 个工具 · 参数接收</text>
+<path d="M700 336 L730 336" stroke="#69A1C6" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M719 329 L730 336 L719 343" stroke="#69A1C6" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="733" y="241" width="227" height="195" rx="18" fill="#F2FFFA" stroke="#BEECD6" stroke-width="1.5"/>
+<rect x="753" y="259" width="48" height="48" rx="14" fill="#CFF8E7" stroke="none" stroke-width="1"/>
+<path d="M763 285l9 9 17-22" stroke="#139977" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<text x="753" y="341" font-size="21" font-weight="760" fill="#196F5A" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >ReconcileService</text>
+<text x="753" y="373" font-size="16" font-weight="650" fill="#249B7C" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >业务判断层</text>
+<text x="753" y="402" font-size="13" font-weight="500" fill="#5C947F" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >3 条规则 · 金额比对</text>
+<path d="M963 336 L993 336" stroke="#69A1C6" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M982 329 L993 336 L982 343" stroke="#69A1C6" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="997" y="241" width="214" height="195" rx="18" fill="#FFF8F0" stroke="#F7D9AE" stroke-width="1.5"/>
+<rect x="1018" y="259" width="48" height="48" rx="14" fill="#FFF0D5" stroke="none" stroke-width="1"/>
+<path d="M1029 275h26M1029 283h26M1029 291h18" stroke="#D18B28" stroke-width="3" stroke-linecap="round"/>
+<text x="1017" y="341" font-size="17" font-weight="760" fill="#925B24" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >CsvBatchRepository</text>
+<text x="1017" y="373" font-size="16" font-weight="650" fill="#B27837" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >数据访问层</text>
+<text x="1017" y="402" font-size="13" font-weight="500" fill="#AD8968" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >校验 CSV / 读取数据</text>
+<path d="M1100 437v44" stroke="#D9A965" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M1093 470l7 11 7-11" stroke="#D9A965" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="944" y="493" width="131" height="67" rx="14" fill="#FFF1DE" stroke="#EAC592" stroke-width="1.5"/>
+<rect x="1084" y="493" width="133" height="67" rx="14" fill="#E7F6FF" stroke="#AACEE6" stroke-width="1.5"/>
+<text x="1009" y="532" font-size="17" font-weight="700" fill="#8E6232" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" text-anchor="middle">orders.csv</text>
+<text x="1150" y="532" font-size="17" font-weight="700" fill="#326886" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" text-anchor="middle">payments.csv</text>
+<rect x="66" y="492" width="780" height="69" rx="17" fill="#E5EAF9" stroke="none" stroke-width="1"/>
+<circle cx="94" cy="526" r="16" fill="#616AE5" /><text x="94" y="532" font-size="18" font-weight="800" fill="#FFFFFF" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" text-anchor="middle">!</text>
+<text x="120" y="519" font-size="17" font-weight="800" fill="#333E83" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >边界清晰</text>
+<text x="120" y="544" font-size="14" font-weight="500" fill="#5E6F94" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Noto Sans SC',Arial,sans-serif" >不调用大模型 API · 不启动 HTTP 服务 · 不执行真实资金操作</text>
+</svg>

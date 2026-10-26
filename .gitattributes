@@ -1,0 +1,10 @@
+# Keep source and documentation portable across operating systems
+* text=auto
+*.md text eol=lf
+*.svg text eol=lf
+*.java text eol=lf
+*.csv text eol=lf
+*.properties text eol=lf
+*.xml text eol=lf
+mvnw text eol=lf
+mvnw.cmd text eol=crlf
